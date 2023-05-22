@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+.container .text {
+  color: wheat;
+}
+.container .trailer {
+  color: wheat;
+  background-color: rgba(255, 68, 0, 0.708);
+  font-size: 18px;
+  border: transparent;
+  border-radius: 5px;
+  padding: 4px;
+  width: 100px;
+}
+.container .trailerPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.container .trailerPopup .trailerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .score {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 10px solid rgba(172, 255, 47, 0.788);
+  color: wheat;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.container .gapIcon {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.container .gapIcon .icon {
+  color: orangered;
+  margin-top: 20px;
+  font-size: 20px;
+}/*# sourceMappingURL=info.module.css.map */

@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  color: #949494;
+  border: 1px solid #949494;
+}
+.pagination button:hover {
+  background-color: #ec7532;
+  border-color: #fb4226;
+  color: #fff !important;
+}
+
+.pagination button.active {
+  background: #ec7532;
+  color: white;
+  border-radius: 2px !important;
+}/*# sourceMappingURL=pagegination.module.css.map */

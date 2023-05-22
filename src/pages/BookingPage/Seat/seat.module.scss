@@ -1,0 +1,28 @@
+.seatDefault {
+  background-color: rgb(238, 234, 234) !important;
+}
+
+.seatVip {
+  background-color: orange !important;
+}
+
+.seatSoldOut {
+  background-color: rgb(80, 78, 78) !important;
+  color: wheat !important;
+}
+
+.seatCommon {
+  width: 100%;
+  height: 38px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .seatDefault,
+  .seatSoldOut,
+  .seatVip {
+    width: 80%;
+    font-size: 12px !important;
+  }
+}

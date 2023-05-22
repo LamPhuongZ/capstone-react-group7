@@ -1,0 +1,151 @@
+
+.banner {
+    cursor: pointer;
+  
+    &:hover { 
+      .banner__trailer {
+        opacity: 1 !important;
+      }
+    }
+    
+  
+    img {
+      width: 100%;
+      height: 500px;
+    }
+  
+    .banner__inner {
+      position: relative;
+    }
+  
+    .banner__trailer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1);
+      color: white !important;
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.8s; 
+      cursor: pointer !important;
+  
+      i {
+        padding: 25px;
+        border: 2px solid white;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer !important;
+        transition: all 0.5s;
+        font-size: 25px;
+        transform: scale(1);
+  
+        &:hover {
+          transform: scale(1.1);
+          border-color: #fbbd61;
+          color: #fbbd61;
+          cursor: pointer !important;
+        }
+  
+        @media screen and (max-width: 992px) {
+          font-size: 20px;
+          padding: 20px;
+  
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  
+    .trailerPopup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      z-index: 1;
+  
+      .trailerContainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+.banner {
+    cursor: pointer;
+  
+    &:hover { 
+      .banner__trailer {
+        opacity: 1 !important;
+      }
+    }
+    
+  
+    img {
+      width: 100%;
+      height: 500px;
+    }
+  
+    .banner__inner {
+      position: relative;
+    }
+  
+    .banner__trailer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(1);
+      color: white !important;
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.8s; 
+      cursor: pointer !important;
+  
+      i {
+        padding: 25px;
+        border: 2px solid white;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer !important;
+        transition: all 0.5s;
+        font-size: 25px;
+        transform: scale(1);
+  
+        &:hover {
+          transform: scale(1.1);
+          border-color: #fbbd61;
+          color: #fbbd61;
+          cursor: pointer !important;
+        }
+  
+        @media screen and (max-width: 992px) {
+          font-size: 20px;
+          padding: 20px;
+  
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  
+    .trailerPopup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      z-index: 1;
+  
+      .trailerContainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }

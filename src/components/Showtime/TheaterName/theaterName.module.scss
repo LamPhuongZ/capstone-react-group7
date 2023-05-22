@@ -1,0 +1,30 @@
+.theater__content {
+    .theater__text {
+        padding: 0;
+        font-size: 11.5px;
+        text-align: left;
+        white-space: nowrap; 
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        p {
+            font-size: 13px;
+            margin: 0;
+            color: #ec7532;
+            font-weight: bold;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            .diaChiRap {
+                color: #212530;
+            }
+        }
+
+        button {
+            color: rgb(240, 30, 30);
+            font-weight: bold;
+            border: none;
+        }
+    }
+}

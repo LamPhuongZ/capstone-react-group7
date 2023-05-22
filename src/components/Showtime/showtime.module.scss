@@ -1,0 +1,10 @@
+@media screen and (max-width: 992px) {
+  .showtime {
+    .showtime__group {
+      border: 1px solid #dee2e6;
+      max-height: 550px;
+      height: 550px;
+      overflow: auto;
+    }
+  }
+}

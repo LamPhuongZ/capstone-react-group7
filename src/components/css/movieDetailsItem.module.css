@@ -1,0 +1,26 @@
+.movieDetails__item {
+  margin-right: 20px;
+  transform: translateY(0);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.movieDetails__item img {
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.movieDetails__item .movieDetails__title {
+  width: 300px;
+}
+.movieDetails__item .movieDetails__title p {
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movieDetails__item:hover {
+  transform: translateY(-20px);
+}/*# sourceMappingURL=movieDetailsItem.module.css.map */

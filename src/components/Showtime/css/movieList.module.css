@@ -1,0 +1,28 @@
+.film__list {
+  border: 1px solid #dee2e6;
+  max-height: 550px;
+  height: 550px;
+  overflow-y: auto;
+}
+.film__list .film__content {
+  display: flex;
+}
+.film__list .film__content .film__img img {
+  width: 150px;
+  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.film__list .film__content .showTime__content .showTime__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.film__list .film__content .showTime__content .showTime__box .showTime {
+  color: black;
+  background-color: rgb(237, 222, 222);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}/*# sourceMappingURL=movieList.module.css.map */

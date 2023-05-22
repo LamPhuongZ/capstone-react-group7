@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.seatRow {
+  row-gap: 15px;
+  @media screen and (min-width: 992px) {
+    column-gap: 15px;
+  }
+}
+
+.seatItem {
+  text-align: center;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.spacing {
+  margin-left: 124px;
+}

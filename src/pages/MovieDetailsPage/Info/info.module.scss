@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  @media screen and (max-width: 992px) {
+    margin: 0px;
+  }
+
+  .text {
+    color: wheat;
+  }
+
+  .trailer {
+    color: wheat;
+    background-color: rgba(255, 68, 0, 0.708);
+    font-size: 18px;
+    border: transparent;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100px;
+  }
+
+  .trailerPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    z-index: 1;
+    .trailerContainer {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .score {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid rgba(172, 255, 47, 0.788);
+    color: wheat;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .gapIcon {
+    display: flex;
+    column-gap: 8px;
+    .icon {
+      color: orangered;
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  }
+}

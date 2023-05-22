@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300&display=swap");
+
+footer {
+    padding: 0px 150px 20px;
+    background-color: #212121;
+
+    .footer__content {
+        .footer__top {
+            .footer__info {
+                padding-top: 20px;
+
+                .top__item {
+
+                    ul,
+                    li {
+                        padding-left: 0px;
+                    }
+
+                    &.img__col {
+                        padding-right: 50px;
+                    }
+
+                    &.mobile__app {
+                        text-align: right;
+                    }
+
+                    .top__title {
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #f2f3f5;
+                        margin-bottom: 10px;
+                    }
+
+                    .top__list {
+                        list-style: none;
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+
+
+                        .list__item {
+                            .list__link {
+                                text-decoration: none;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #949494;
+                                transition: all 0.3s;
+
+                                &:hover {
+                                    color: #f2f3f5;
+                                }
+                            }
+                        }
+                    }
+
+                    .img__list {
+                        .img__item {
+                            display: inline-flex;
+                            margin: 0 25px 25px 0;
+
+                            .img__link {
+                                text-decoration: none;
+                                opacity: 1;
+
+                                &:hover {
+                                    opacity: 0.7;
+                                }
+
+                                img {
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: #f2f3f5;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+
+                    .logo__list {
+                        display: inline-flex;
+                        justify-content: center;
+                        list-style: none;
+
+                        .logo__item {
+                            margin: 5px;
+
+                            .logo__link {
+                                img {
+                                    width: 25px;
+                                    height: 30px;
+                                }
+
+                                .img__social {
+                                    width: 30px;
+                                    height: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .footer__bottom {
+            .footer__left {
+                img {
+                    width: 100px;
+                    border-radius: 7px;
+                }
+            }
+
+            .footer__middle {
+                color: #fff;
+
+                .footer__title {
+                    font-size: 12px;
+                }
+
+                .footer__h6 {
+                    font-size: 12px;
+                    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                    font-weight: 500;
+                    line-height: 1;
+                    // letter-spacing: 0.0075em;
+
+                }
+            }
+
+            .footer__right {
+                img {
+                    width: 100px;
+                    border-radius: 7px;
+                }
+            }
+        }
+
+        .division__line {
+            border-bottom: 1px solid #e0e0e0;
+            opacity: 0.7;
+        }
+    }
+}
