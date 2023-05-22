@@ -15,6 +15,7 @@
     &.header__nav {
       width: 75% !important;
     }
+
     li {
       display: inline;
       margin: 0 10px;
@@ -76,6 +77,11 @@
         min-width: 100px;
         display: flex;
         align-items: center;
+
+        &:hover {
+          color: #ec7532;
+          cursor: pointer;
+        }
       }
     }
 
@@ -105,12 +111,4 @@
       }
     }
   }
-
-  // .logout {
-  //     padding: 0;
-  //     outline: none;
-  //     box-shadow: none;
-  //     color: #54524d;
-  //     font-weight: bold;
-  // }
 }

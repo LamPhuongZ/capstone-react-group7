@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import data from './data.json'
 import styles from "./news.module.scss";
 import cls from "classnames";
 import { LazyLoadImage } from 'react-lazy-load-image-component';

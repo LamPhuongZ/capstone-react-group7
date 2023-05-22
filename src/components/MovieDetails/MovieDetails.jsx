@@ -7,9 +7,9 @@ import MovieDetailsItem from "../MovieDetailsItem/MovieDetailsItem";
 
 function MovieDetails() {
   const [movies, setMovies] = useState([]);
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(8);
+  const [postsPerPage] = useState(8);
 
   const getMovies = async () => {
     try {

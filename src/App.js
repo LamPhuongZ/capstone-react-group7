@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 
 import HomeTemplate from "./templates/HomeTemplate/HomeTemplate";
+const ProfilePage = lazy(() => import("./pages/ProfilePage/ProfilePage"));
 const BookingPage = lazy(() => import("./pages/BookingPage/BookingPage"));
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const LoginPage = lazy(() => import("./pages/LoginPage/LoginPage"));
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/details/:movieId" element={<MovieDetailsPage />} />
             <Route path="/booking/:showTimeId" element={<BookingPage />} />
+            <Route path="/profile/:taiKhoan" element={<ProfilePage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
           </Route>
