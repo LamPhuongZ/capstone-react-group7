@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import { NavLink, Link, useNavigate } from "react-router-dom";
+import React, {  useState } from "react";
+import {  Link, useNavigate } from "react-router-dom";
 import styles from "./header.module.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../Redux/slices/userSlice";
@@ -35,6 +35,11 @@ function Header() {
     dispatch(logout());
     localStorage.removeItem("accessToken");
   };
+
+  // chuyển đến trang profilePage
+  const onNavigateToEditProfile = async (accountName) => {
+    navigate(`/profile/${accountName}`);
+  }
 
   return (
     <header className={`${styles.header} fixed-top`}>
@@ -80,7 +85,7 @@ function Header() {
             >
               {user ? (
                 <div className={styles.logout__content}>
-                  <p className={styles.infoUser}>
+                  <p className={styles.infoUser} onClick={() => onNavigateToEditProfile(user.taiKhoan)}>
                     <span className={styles.iconUser}>
                       <i className="fa fa-user-circle"></i>
                     </span>

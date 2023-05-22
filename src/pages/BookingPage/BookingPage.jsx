@@ -54,7 +54,7 @@ function BookingPage() {
     }
 
     try {
-      const response = await bookingTickets({
+      await bookingTickets({
         maLichChieu: showTimeId,
         danhSachVe: cart.map((item) => {
           return {

@@ -1,0 +1,50 @@
+.icon {
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.formGroup {
+    margin-bottom: 10px;
+    text-align: center;
+
+    input {
+        width: 50rem;
+        padding: 10px;
+    }
+
+    p {
+        color: orangered;
+    }
+
+    button {
+        width: 50rem;
+        padding: 10px;
+        color: #949494;
+        border: 1px solid #949494;
+
+        &:hover {
+            background-color: #fff;
+            border-color: #fb4226;
+            color: #ec7532 !important;
+        }
+    }
+
+    button.active {
+        background-image: linear-gradient(to right, #fbbd61, #ec7532);
+        color: white;
+        padding: 10px 25px;
+        border-radius: 30px !important;
+    }
+}
+
+.showPass {
+    text-align: right;
+    padding-right: 11rem;
+    margin-bottom: 2rem;
+}
