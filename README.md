@@ -1,5 +1,8 @@
-Link deploy: 
+Link deploy Client: 
 https://capstone-react-group7.netlify.app/
+
+Link deploy Admin:
+https://admin-capstone-react-group7.vercel.app/
 
 File phan cong:
 https://docs.google.com/spreadsheets/d/1Gdb2WTIveomWknnfhAEHMwTwPVMcZW5vmRdarGP6ttw/edit?usp=sharing
