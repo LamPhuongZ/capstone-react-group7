@@ -1,3 +1,12 @@
+Link deploy: 
+https://capstone-react-group7.netlify.app/
+
+File phan cong:
+https://docs.google.com/spreadsheets/d/1Gdb2WTIveomWknnfhAEHMwTwPVMcZW5vmRdarGP6ttw/edit?usp=sharing
+
+Link youtube:
+https://www.youtube.com/watch?v=-vs1ckrvlvY
+
 # capstone-react-group7
 
 1. Components: chứa các component sử dụng nhiều lần và xuyên suốt các trang
