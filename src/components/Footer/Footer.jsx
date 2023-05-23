@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer>
-      <div className="container">
+      <div className={styles.container}>
         <div className={styles.footer__content}>
           <div className={styles.footer__top}>
             <div className={`row ${styles.footer__info}`}>
