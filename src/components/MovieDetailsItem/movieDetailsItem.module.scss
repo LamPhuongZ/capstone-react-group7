@@ -108,13 +108,11 @@
     }
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 468px) {
     .movieDetails__group {
         .movieDetails__item {
             .movieDetails__title {
-                width: 27rem;
-
+                width: 18rem;
                 .movieName {
                     font-size: 1.5rem;
                 }
@@ -125,7 +123,30 @@
 
                 p {
                     word-wrap: break-all;
-                    white-space: normal;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 468px) {
+    .movieDetails__group {
+        .movieDetails__item {
+            .movieDetails__title {
+                width: 22rem;
+                .movieName {
+                    font-size: 1.5rem;
+                }
+
+                .describe {
+                    height: 9rem;
+                }
+
+                p {
+                    word-wrap: break-all;
                     overflow: hidden;
                     text-overflow: ellipsis;
 
@@ -152,30 +173,6 @@
                 p {
                     word-wrap: break-all;
                     white-space: normal;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 468px) {
-    .movieDetails__group {
-        .movieDetails__item {
-            .movieDetails__title {
-                width: 22rem;
-                .movieName {
-                    font-size: 1.5rem;
-                }
-
-                .describe {
-                    height: 9rem;
-                }
-
-                p {
-                    word-wrap: break-all;
                     overflow: hidden;
                     text-overflow: ellipsis;
 
